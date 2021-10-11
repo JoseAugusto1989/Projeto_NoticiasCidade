@@ -3,6 +3,32 @@
     padding: 0;
 }
 
+img.imagemPrincipal {
+    width: 98%;
+    border: 2px solid #dfdfdf;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+h3.legislacao {
+    background: #de003e;
+    color: #fff;
+}
+
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
+
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #fff url(../imagens/fundo.png) repeat-x;
@@ -85,6 +111,37 @@ ul {
 #topo ul a:hover {
     color: #69001d;
 }
+
+#listaNoticias li {
+    padding: 2px;
+    border-bottom: solid #ccc;
+    height: 62px;
+}
+
+#listaNoticias li a img{
+   float: left;
+   margin: 5px;
+}
+
+#listaNoticias li a {
+    text-decoration: none;
+ }
+
+ #listaNoticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+ }
+
+ #listaNoticias li a p {
+    font-size: 0.7em;
+    color: #000;
+ }
+
+ #listaNoticias li:hover {
+    background: #eee;
+    cursor: pointer;
+ }
 
 body.home #navegacao a#home,
 body.brasil #navegacao a#brasil,
